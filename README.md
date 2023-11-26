@@ -1,5 +1,4 @@
-<h2 style="text-align: center; font-family: 'Libre Franklin';
-">Project Title: Frontend Mentor - Ping coming soon page</h2>
+<h2>Project Title: Frontend Mentor - Ping coming soon page</h2>
 
 <br>
 
@@ -30,6 +29,6 @@
 
 [![Live Preview](https://img.shields.io/badge/Live_Preview-5C488E?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzNiIvPjwvc3ZnPg==)](https://fem-ping-coming-soon.pages.dev/)
 
-</div>
-
 <p style="text-align: center;">Made with ❤️ </p>
+
+</div>

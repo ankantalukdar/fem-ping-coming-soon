@@ -4,62 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.webp">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/08fd525935.js" crossorigin="anonymous"></script>
   <title>FEM - Ping coming soon page</title>
 </head>
-
 <body>
+  <main>
+    <div class="main">
+      <img src="./images/logo.svg" alt="" class="logo">
+      <h1>We are launching <span class="bold">soon!</span></h1>
+      <p class="sub-text">Subscribe and get notified</p>
 
-  <!-- logo -->
-    <div class="logo-div">
-      <img class="logo" src="images/logo.svg" alt="logo">
+      <!-- e-mail section -->
+      <div class="email-input-wrapper">
+        <div class="input-wrapper">
+          <input type="text" class="email-input" placeholder="Your email address...">
+          <p class="email-error">Please provide a valid email address</p>
+        </div>
+        <button class="btn">Notify Me</button>
+      </div>
     </div>
-  <!-- logo end -->
+    <!-- e-mail end -->
 
-  <!-- text starts here! -->
-  <div class="text">
-    <span class="top-text">We are launching <span class="text-bold">soon!</span></span>
-    <p>Subscribe and get notified</p>
-  </div>
-  <!-- text ends here! -->
-
-  <!-- form start here! -->
-  <div class="form">
-    <input class="email" placeholder="Your email address..." type="email">
-    <button>Notify Me</button>
-  </div>
-  <!-- form ends here! -->
-
-  <!-- illustration image -->
-  <div class="illustration-div">
-    <img class="illustration" src="images/illustration-dashboard.png">
-  </div>
-  <!-- illustration image end! -->
-
-  <!-- social & copyright text -->
-  <div class="social-logo">
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-twitter"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-  </div>
-  <div class="copyright">
-    &copy; Copyright Ping. All rights reserved.
-  </div>
-  <!-- social & copyright text end -->
-
-<!-- footer -->
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by  <a href="#">Ninja</a>.
-    </p>
-  </footer>
-<!-- footer -->
-
+    <div class="image-section">
+      <img src="./images/illustration-dashboard.png" alt="">
+    </div>
+    <div class="footer">
+      <div class="icons">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
